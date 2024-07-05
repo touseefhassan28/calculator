@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="display">
+            <p id="display"></p>
+        </div>
+
+        <div class="row1">
+            <input type="button" id="operation" value="C">
+            <input type="button" id="operation" value="%">
+            <input type="button" id="operation" value="DE">
+            <input type="button" id="operation" value="÷">
+        </div>
+        <div class="row2">
+            <input type="button" value="7" class="numbers">
+            <input type="button" value="8" class="numbers">
+            <input type="button" value="9" class="numbers">
+            <input type="button" value="x" class="operation" id="multiply">
+        </div>
+        <div class="row3">
+            <input type="button" value="4" class="numbers">
+            <input type="button" value="5" class="numbers">
+            <input type="button" value="6" class="numbers">
+            <input type="button" value="-" class="operation" id="subtract">
+        </div>
+        <div class="row4">
+            <input type="button" value="1" class="numbers">
+            <input type="button" value="2" class="numbers">
+            <input type="button" value="3" class="numbers">
+            <input type="button" value="+" class="operation" id="add">
+        </div>
+        <div class="row5">
+            <input type="button" value="0" class="numbers">
+            <input type="button" value="." class="numbers">
+            <input type="button" value="=" id="equal">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
